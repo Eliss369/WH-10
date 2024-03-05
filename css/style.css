@@ -1,0 +1,42 @@
+:root {
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+  --black-color: #212121;
+  --white-color: #ffff;
+  --dark-blue-color: #2f303a;
+}
+body {
+  font-family: "Roboto";
+}
+.header-item,
+.footer-link {
+  line-height: 31px;
+}
+
+.header-link {
+  line-height: 16px;
+}
+.section-button {
+  line-height: 26px;
+}
+.section-subtitle,
+.photos-title,
+.portfolio-title {
+  line-height: 36px;
+}
+.section-text {
+  line-height: 30px;
+}
+.footer-lis,
+.text-item {
+  line-height: 24px;
+}
+.services-title {
+  line-height: 60px;
+}
+.list-title {
+  line-height: 16.41px;
+}
+.photos-text {
+  line-height: 18.75px;
+}
