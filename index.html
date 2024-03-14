@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <a href="./index.html" class="header-item">Webstudio</a>
+    <header class="header" id="header">
+      <a href="./index.html" class="header-logo"
+        ><span class="header-web">Web</span>studio</a
+      >
       <nav class="header-navigation">
         <ul class="list">
           <li class="list-item">
-            <a href="./index.html" class="header-link">Студія</a>
+            <a href="./index.html" class="header-list-link">Студія</a>
           </li>
           <li class="list-item">
             <a href="./portfolio.html" class="header-link">Портфоліо</a>
@@ -28,48 +30,50 @@
           </li>
         </ul>
       </nav>
-      <ul class="list">
-        <li class="list-item">
+      <ul class="header-contacts">
+        <li class="header-contacts-item">
           <a href="mailto:info@devstudio.com" class="header-link"
             >info@devstudio.com</a
           >
         </li>
         <li class="list-item">
-          <a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="header-contacts-link"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
     <main class="main">
-      <section class="servises">
-        <h1 class="servises-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="servises-button">Замовити послугу</button>
+      <section class="hero container">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero-button">Замовити послугу</button>
       </section>
-      <section class="text">
-        <h2 class="text-title">Детальна інформація</h2>
-        <ul class="text-list">
+      <section class="advatages">
+        <h2 class="advatages-title">Детальна інформація</h2>
+        <ul class="advatages-list">
           <li class="list-item">
-            <h3 class="list-title">Увага до деталей</h3>
-            <p class="text-item">
+            <h3 class="title">Увага до деталей</h3>
+            <p class="advatages-item">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li class="list-item">
-            <h3 class="list-title">Пунктуальність</h3>
-            <p class="text-item">
+            <h3 class="title">Пунктуальність</h3>
+            <p class="advatages-item">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li class="list-item">
-            <h3 class="list-title">Планування</h3>
-            <p class="text-item">
+            <h3 class="title">Планування</h3>
+            <p class="advatages-item">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
 
           <li class="list-item">
-            <h3 class="list-title">Сучасні технології</h3>
+            <h3 class="title">Сучасні технології</h3>
             <p class="servises-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -114,7 +118,7 @@
               <img src="./img/man1.png" alt="Ігор Дем'яненко" width="270" />
               <figcaption class="photos-item">
                 <p class="photos-text">Ігор Дем'яненко</p>
-                <p class="photos-text">Product Designer</p>
+                <p class="photos-text-subtext">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -129,7 +133,7 @@
               />
               <figcaption class="into-item">
                 <p class="photos-text">Ольга Рєпіна</p>
-                <p class="photos-text">Frontend Developer</p>
+                <p class="photos-text-subtext">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -144,7 +148,7 @@
 
               <figcaption class="into-item">
                 <p class="photos-text">Микола Тарасов</p>
-                <p class="photos-text">Marketing</p>
+                <p class="photos-text-subtext">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -167,19 +171,21 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="footer-link">WebStudio</a>
+      <a href="./index.html" class="footer-link">
+        <span class="footer-web">Web</span>Studio</a
+      >
       <address class="footer-navigation">
         <ul class="footer-list">
           <li class="footer-item">
             <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
           </li>
           <li class="footer-item">
-            <a href="mailto:info@devstudio.com" class="footer-link"
+            <a href="mailto:info@devstudio.com" class="footer-link-contacts"
               >info@devstudio.com</a
             >
           </li>
           <li class="footer-item">
-            <a href="tel:+380961111111" class="footer-link"
+            <a href="tel:+380961111111" class="footer-link-contacts"
               >+38 096 111 11 11</a
             >
           </li>
